@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResInsightProject>
+    <DocumentFileName>/home/almuravtsev/oil-gas-software-experiments/drafts/SPE1CASE1.rsp</DocumentFileName>
+    <ProjectFileVersionString>2022.06.0</ProjectFileVersionString>
+    <ReferencedExternalFiles>
+        $PathId_001$ /home/almuravtsev/oil-gas-software-experiments/drafts/SPE1CASE1.EGRID;
+    </ReferencedExternalFiles>
+    <OilFields>
+        <ResInsightOilField>
+            <AnalysisModels>
+                <ResInsightAnalysisModels>
+                    <Reservoirs>
+                        <EclipseCase>
+                            <Name>SPE1CASE1</Name>
+                            <NameSetting>FULL_CASE_NAME</NameSetting>
+                            <Id>0</Id>
+                            <FilePath>$PathId_001$</FilePath>
+                            <DefaultFormationNames></DefaultFormationNames>
+                            <TimeStepFilter>
+                                <RimTimeStepFilter>
+                                    <FilterType>TS_ALL</FilterType>
+                                    <FirstTimeStep>0</FirstTimeStep>
+                                    <LastTimeStep>119</LastTimeStep>
+                                    <Interval>1</Interval>
+                                    <DateFormat>dd.MMM yyyy</DateFormat>
+                                    <TimeStepIndicesToImport>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 </TimeStepIndicesToImport>
+                                </RimTimeStepFilter>
+                            </TimeStepFilter>
+                            <IntersectionViewCollection>
+                                <Intersection2dViewCollection>
+                                    <IntersectionViews/>
+                                </Intersection2dViewCollection>
+                            </IntersectionViewCollection>
+                            <ReservoirViews>
+                                <ReservoirView>
+                                    <WindowController>
+                                        <MdiWindowController>
+                                            <MainWindowID>0</MainWindowID>
+                                            <xPos>0</xPos>
+                                            <yPos>0</yPos>
+                                            <Width>400</Width>
+                                            <Height>400</Height>
+                                            <IsMaximized>True </IsMaximized>
+                                        </MdiWindowController>
+                                    </WindowController>
+                                    <ShowWindow>True </ShowWindow>
+                                    <Id>0</Id>
+                                    <NameConfig>
+                                        <RimViewNameConfig>
+                                            <CustomCurveName>3D View</CustomCurveName>
+                                            <AddCaseName>False </AddCaseName>
+                                            <AddAggregationType>True </AddAggregationType>
+                                            <AddProperty>True </AddProperty>
+                                            <AddSampleSpacing>False </AddSampleSpacing>
+                                        </RimViewNameConfig>
+                                    </NameConfig>
+                                    <CameraPosition>1 0 0 -8588.95437870652 0 1 0 -4916.94981602993 0 0 1 -23536.1576260112 0 0 0 1</CameraPosition>
+                                    <CameraPointOfInterest>0 0 0</CameraPointOfInterest>
+                                    <PerspectiveProjection>True </PerspectiveProjection>
+                                    <GridZScale>5</GridZScale>
+                                    <BackgroundColor>0.689997732639313 0.770000755786896 0.869993150234222</BackgroundColor>
+                                    <MaximumFrameRate>10</MaximumFrameRate>
+                                    <CurrentTimeStep>0</CurrentTimeStep>
+                                    <MeshMode>FULL_MESH</MeshMode>
+                                    <SurfaceMode>SURFACE</SurfaceMode>
+                                    <ShowGridBox>True </ShowGridBox>
+                                    <DisableLighting>False </DisableLighting>
+                                    <ShowZScale>True </ShowZScale>
+                                    <ComparisonView></ComparisonView>
+                                    <FontSize>Medium</FontSize>
+                                    <CrossSections>
+                                        <IntersectionCollection>
+                                            <CrossSections/>
+                                            <IntersectionBoxes/>
+                                            <Active>True </Active>
+                                            <UpperDepthThreshold>730</UpperDepthThreshold>
+                                            <LowerDepthThreshold>850</LowerDepthThreshold>
+                                            <DepthFilterOverride>False </DepthFilterOverride>
+                                            <CollectionDepthFilterType>INTERSECT_SHOW_ALL</CollectionDepthFilterType>
+                                        </IntersectionCollection>
+                                    </CrossSections>
+                                    <IntersectionResultDefColl>
+                                        <RimIntersectionResultsDefinitionCollection>
+                                            <isActive>False </isActive>
+                                            <IntersectionResultDefinitions>
+                                                <IntersectionResultDefinition>
+                                                    <IsActive>True </IsActive>
+                                                    <Case>.. .. ..</Case>
+                                                    <TimeStep>0</TimeStep>
+                                                    <EclipseResultDef>
+                                                        <ResultDefinition>
+                                                            <IsChecked>True </IsChecked>
+                                                            <ResultType>DYNAMIC_NATIVE</ResultType>
+                                                            <PorosityModelType>MATRIX_MODEL</PorosityModelType>
+                                                            <ResultVariable>None</ResultVariable>
+                                                            <FlowDiagSolution>.. .. .. .. FlowDiagSolutions 0</FlowDiagSolution>
+                                                            <TimeLapseBaseTimeStep>-1</TimeLapseBaseTimeStep>
+                                                            <DifferenceCase></DifferenceCase>
+                                                            <DivideByCellFaceArea>False </DivideByCellFaceArea>
+                                                            <SelectedInjectorTracers></SelectedInjectorTracers>
+                                                            <SelectedProducerTracers></SelectedProducerTracers>
+                                                            <SelectedSouringTracers></SelectedSouringTracers>
+                                                            <FlowTracerSelectionMode>FLOW_TR_INJ_AND_PROD</FlowTracerSelectionMode>
+                                                            <PhaseSelection>PHASE_ALL</PhaseSelection>
+                                                            <ShowOnlyVisibleCategoriesInLegend>True </ShowOnlyVisibleCategoriesInLegend>
+                                                            <MSyncSelectedInjProd>False </MSyncSelectedInjProd>
+                                                            <MSyncSelectedProdInj>False </MSyncSelectedProdInj>
+                                                        </ResultDefinition>
+                                                    </EclipseResultDef>
+                                                    <GeoMechResultDef>
+                                                        <GeoMechResultDefinition>
+                                                            <IsChecked>True </IsChecked>
+                                                            <ResultPositionType>NODAL</ResultPositionType>
+                                                            <ResultFieldName></ResultFieldName>
+                                                            <ResultComponentName></ResultComponentName>
+                                                            <TimeLapseBaseTimeStep>-1</TimeLapseBaseTimeStep>
+                                                            <ReferenceTimeStep>0</ReferenceTimeStep>
+                                                            <CompactionRefLayer>0</CompactionRefLayer>
+                                                            <NormalizeByHSP>False </NormalizeByHSP>
+                                                            <NormalizationAirGap>0</NormalizationAirGap>
+                                                        </GeoMechResultDefinition>
+                                                    </GeoMechResultDef>
+                                                    <LegendConfig>
+                                                        <Legend>
+                                                            <ShowLegend>True </ShowLegend>
+                                                            <NumberOfLevels>8</NumberOfLevels>
+                                                            <Precision>4</Precision>
+                                                            <TickNumberFormat>FIXED</TickNumberFormat>
+                                                            <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                            <MappingMode>LinearContinuous</MappingMode>
+                                                            <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                            <UserDefinedMax>1</UserDefinedMax>
+                                                            <UserDefinedMin>0</UserDefinedMin>
+                                                            <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                            <ResultVariableUsage></ResultVariableUsage>
+                                                            <ResetDefaultValues>False </ResetDefaultValues>
+                                                            <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                        </Legend>
+                                                    </LegendConfig>
+                                                    <TernaryLegendConfig>
+                                                        <RimTernaryLegendConfig>
+                                                            <ShowTernaryLegend>True </ShowTernaryLegend>
+                                                            <Precision>2</Precision>
+                                                            <RangeType>USER_DEFINED_MAX_MIN</RangeType>
+                                                            <ternaryRangeSummary></ternaryRangeSummary>
+                                                            <UserDefinedMaxSoil>1</UserDefinedMaxSoil>
+                                                            <UserDefinedMinSoil>0</UserDefinedMinSoil>
+                                                            <UserDefinedMaxSgas>1</UserDefinedMaxSgas>
+                                                            <UserDefinedMinSgas>0</UserDefinedMinSgas>
+                                                            <UserDefinedMaxSwat>1</UserDefinedMaxSwat>
+                                                            <UserDefinedMinSwat>0</UserDefinedMinSwat>
+                                                        </RimTernaryLegendConfig>
+                                                    </TernaryLegendConfig>
+                                                </IntersectionResultDefinition>
+                                            </IntersectionResultDefinitions>
+                                        </RimIntersectionResultsDefinitionCollection>
+                                    </IntersectionResultDefColl>
+                                    <ReservoirSurfaceResultDefColl>
+                                        <RimIntersectionResultsDefinitionCollection>
+                                            <isActive>False </isActive>
+                                            <IntersectionResultDefinitions>
+                                                <IntersectionResultDefinition>
+                                                    <IsActive>True </IsActive>
+                                                    <Case>.. .. ..</Case>
+                                                    <TimeStep>0</TimeStep>
+                                                    <EclipseResultDef>
+                                                        <ResultDefinition>
+                                                            <IsChecked>True </IsChecked>
+                                                            <ResultType>DYNAMIC_NATIVE</ResultType>
+                                                            <PorosityModelType>MATRIX_MODEL</PorosityModelType>
+                                                            <ResultVariable>None</ResultVariable>
+                                                            <FlowDiagSolution>.. .. .. .. FlowDiagSolutions 0</FlowDiagSolution>
+                                                            <TimeLapseBaseTimeStep>-1</TimeLapseBaseTimeStep>
+                                                            <DifferenceCase></DifferenceCase>
+                                                            <DivideByCellFaceArea>False </DivideByCellFaceArea>
+                                                            <SelectedInjectorTracers></SelectedInjectorTracers>
+                                                            <SelectedProducerTracers></SelectedProducerTracers>
+                                                            <SelectedSouringTracers></SelectedSouringTracers>
+                                                            <FlowTracerSelectionMode>FLOW_TR_INJ_AND_PROD</FlowTracerSelectionMode>
+                                                            <PhaseSelection>PHASE_ALL</PhaseSelection>
+                                                            <ShowOnlyVisibleCategoriesInLegend>True </ShowOnlyVisibleCategoriesInLegend>
+                                                            <MSyncSelectedInjProd>False </MSyncSelectedInjProd>
+                                                            <MSyncSelectedProdInj>False </MSyncSelectedProdInj>
+                                                        </ResultDefinition>
+                                                    </EclipseResultDef>
+                                                    <GeoMechResultDef>
+                                                        <GeoMechResultDefinition>
+                                                            <IsChecked>True </IsChecked>
+                                                            <ResultPositionType>NODAL</ResultPositionType>
+                                                            <ResultFieldName></ResultFieldName>
+                                                            <ResultComponentName></ResultComponentName>
+                                                            <TimeLapseBaseTimeStep>-1</TimeLapseBaseTimeStep>
+                                                            <ReferenceTimeStep>0</ReferenceTimeStep>
+                                                            <CompactionRefLayer>0</CompactionRefLayer>
+                                                            <NormalizeByHSP>False </NormalizeByHSP>
+                                                            <NormalizationAirGap>0</NormalizationAirGap>
+                                                        </GeoMechResultDefinition>
+                                                    </GeoMechResultDef>
+                                                    <LegendConfig>
+                                                        <Legend>
+                                                            <ShowLegend>True </ShowLegend>
+                                                            <NumberOfLevels>8</NumberOfLevels>
+                                                            <Precision>4</Precision>
+                                                            <TickNumberFormat>FIXED</TickNumberFormat>
+                                                            <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                            <MappingMode>LinearContinuous</MappingMode>
+                                                            <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                            <UserDefinedMax>1</UserDefinedMax>
+                                                            <UserDefinedMin>0</UserDefinedMin>
+                                                            <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                            <ResultVariableUsage></ResultVariableUsage>
+                                                            <ResetDefaultValues>False </ResetDefaultValues>
+                                                            <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                        </Legend>
+                                                    </LegendConfig>
+                                                    <TernaryLegendConfig>
+                                                        <RimTernaryLegendConfig>
+                                                            <ShowTernaryLegend>True </ShowTernaryLegend>
+                                                            <Precision>2</Precision>
+                                                            <RangeType>USER_DEFINED_MAX_MIN</RangeType>
+                                                            <ternaryRangeSummary></ternaryRangeSummary>
+                                                            <UserDefinedMaxSoil>1</UserDefinedMaxSoil>
+                                                            <UserDefinedMinSoil>0</UserDefinedMinSoil>
+                                                            <UserDefinedMaxSgas>1</UserDefinedMaxSgas>
+                                                            <UserDefinedMinSgas>0</UserDefinedMinSgas>
+                                                            <UserDefinedMaxSwat>1</UserDefinedMaxSwat>
+                                                            <UserDefinedMinSwat>0</UserDefinedMinSwat>
+                                                        </RimTernaryLegendConfig>
+                                                    </TernaryLegendConfig>
+                                                </IntersectionResultDefinition>
+                                            </IntersectionResultDefinitions>
+                                        </RimIntersectionResultsDefinitionCollection>
+                                    </ReservoirSurfaceResultDefColl>
+                                    <GridCollection>
+                                        <GridCollection>
+                                            <IsActive>True </IsActive>
+                                            <MainGrid>
+                                                <GridInfo>
+                                                    <IsActive>True </IsActive>
+                                                    <GridName>Main Grid</GridName>
+                                                    <GridIndex>0</GridIndex>
+                                                </GridInfo>
+                                            </MainGrid>
+                                            <PersistentLgrs>
+                                                <GridInfoCollection>
+                                                    <IsActive>True </IsActive>
+                                                    <GridInfos/>
+                                                </GridInfoCollection>
+                                            </PersistentLgrs>
+                                        </GridCollection>
+                                    </GridCollection>
+                                    <OverlayInfoConfig>
+                                        <View3dOverlayInfoConfig>
+                                            <Active>True </Active>
+                                            <ShowAnimProgress>True </ShowAnimProgress>
+                                            <ShowInfoText>True </ShowInfoText>
+                                            <ShowResultInfo>True </ShowResultInfo>
+                                            <ShowHistogram>True </ShowHistogram>
+                                            <ShowVolumeWeightedMean>True </ShowVolumeWeightedMean>
+                                            <ShowVersionInfo>True </ShowVersionInfo>
+                                            <StatisticsTimeRange>CURRENT_TIMESTEP</StatisticsTimeRange>
+                                            <StatisticsCellRange>VISIBLE_CELLS</StatisticsCellRange>
+                                        </View3dOverlayInfoConfig>
+                                    </OverlayInfoConfig>
+                                    <WellMeasurements>
+                                        <WellMeasurementsInView>
+                                            <Name>Well Measurements</Name>
+                                            <IsChecked>False </IsChecked>
+                                            <MeasurementKinds/>
+                                        </WellMeasurementsInView>
+                                    </WellMeasurements>
+                                    <SurfaceInViewCollection/>
+                                    <RangeFilters>
+                                        <CellFilterCollection>
+                                            <Active>True </Active>
+                                            <CellFilters/>
+                                        </CellFilterCollection>
+                                    </RangeFilters>
+                                    <GridCellResult>
+                                        <ResultSlot>
+                                            <IsChecked>True </IsChecked>
+                                            <ResultType>DYNAMIC_NATIVE</ResultType>
+                                            <PorosityModelType>MATRIX_MODEL</PorosityModelType>
+                                            <ResultVariable>SOIL</ResultVariable>
+                                            <FlowDiagSolution>.. .. FlowDiagSolutions 0</FlowDiagSolution>
+                                            <TimeLapseBaseTimeStep>-1</TimeLapseBaseTimeStep>
+                                            <DifferenceCase></DifferenceCase>
+                                            <DivideByCellFaceArea>False </DivideByCellFaceArea>
+                                            <SelectedInjectorTracers></SelectedInjectorTracers>
+                                            <SelectedProducerTracers></SelectedProducerTracers>
+                                            <SelectedSouringTracers></SelectedSouringTracers>
+                                            <FlowTracerSelectionMode>FLOW_TR_INJ_AND_PROD</FlowTracerSelectionMode>
+                                            <PhaseSelection>PHASE_ALL</PhaseSelection>
+                                            <ShowOnlyVisibleCategoriesInLegend>True </ShowOnlyVisibleCategoriesInLegend>
+                                            <MSyncSelectedInjProd>False </MSyncSelectedInjProd>
+                                            <MSyncSelectedProdInj>False </MSyncSelectedProdInj>
+                                            <ResultVarLegendDefinitionList>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                    <ResultVariableUsage>None</ResultVariableUsage>
+                                                    <ResetDefaultValues>False </ResetDefaultValues>
+                                                    <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                </Legend>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>0.8814</UserDefinedMax>
+                                                    <UserDefinedMin>0.3296</UserDefinedMin>
+                                                    <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                    <ResultVariableUsage>SOIL</ResultVariableUsage>
+                                                    <ResetDefaultValues>False </ResetDefaultValues>
+                                                    <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                </Legend>
+                                            </ResultVarLegendDefinitionList>
+                                            <TernaryLegendDefinition>
+                                                <RimTernaryLegendConfig>
+                                                    <ShowTernaryLegend>True </ShowTernaryLegend>
+                                                    <Precision>2</Precision>
+                                                    <RangeType>USER_DEFINED_MAX_MIN</RangeType>
+                                                    <ternaryRangeSummary></ternaryRangeSummary>
+                                                    <UserDefinedMaxSoil>1</UserDefinedMaxSoil>
+                                                    <UserDefinedMinSoil>0</UserDefinedMinSoil>
+                                                    <UserDefinedMaxSgas>1</UserDefinedMaxSgas>
+                                                    <UserDefinedMinSgas>0</UserDefinedMinSgas>
+                                                    <UserDefinedMaxSwat>1</UserDefinedMaxSwat>
+                                                    <UserDefinedMinSwat>0</UserDefinedMinSwat>
+                                                </RimTernaryLegendConfig>
+                                            </TernaryLegendDefinition>
+                                            <LegendDefinitionPtrField>ResultVarLegendDefinitionList 1</LegendDefinitionPtrField>
+                                        </ResultSlot>
+                                    </GridCellResult>
+                                    <GridCellEdgeResult>
+                                        <CellEdgeResultSlot>
+                                            <EnableCellEdgeColors>False </EnableCellEdgeColors>
+                                            <propertyType>MULTI_AXIS_STATIC_PROPERTY</propertyType>
+                                            <CellEdgeVariable>MULT</CellEdgeVariable>
+                                            <UseXVariable>True </UseXVariable>
+                                            <UseYVariable>True </UseYVariable>
+                                            <UseZVariable>True </UseZVariable>
+                                            <LegendDefinition>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 3</ColorLegend>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                    <ResultVariableUsage></ResultVariableUsage>
+                                                    <ResetDefaultValues>False </ResetDefaultValues>
+                                                    <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                </Legend>
+                                            </LegendDefinition>
+                                            <SingleVarEdgeResult>
+                                                <ResultSlot>
+                                                    <IsChecked>True </IsChecked>
+                                                    <ResultType>DYNAMIC_NATIVE</ResultType>
+                                                    <PorosityModelType>MATRIX_MODEL</PorosityModelType>
+                                                    <ResultVariable>None</ResultVariable>
+                                                    <FlowDiagSolution>.. .. .. FlowDiagSolutions 0</FlowDiagSolution>
+                                                    <TimeLapseBaseTimeStep>-1</TimeLapseBaseTimeStep>
+                                                    <DifferenceCase></DifferenceCase>
+                                                    <DivideByCellFaceArea>False </DivideByCellFaceArea>
+                                                    <SelectedInjectorTracers></SelectedInjectorTracers>
+                                                    <SelectedProducerTracers></SelectedProducerTracers>
+                                                    <SelectedSouringTracers></SelectedSouringTracers>
+                                                    <FlowTracerSelectionMode>FLOW_TR_INJ_AND_PROD</FlowTracerSelectionMode>
+                                                    <PhaseSelection>PHASE_ALL</PhaseSelection>
+                                                    <ShowOnlyVisibleCategoriesInLegend>True </ShowOnlyVisibleCategoriesInLegend>
+                                                    <MSyncSelectedInjProd>False </MSyncSelectedInjProd>
+                                                    <MSyncSelectedProdInj>False </MSyncSelectedProdInj>
+                                                    <ResultVarLegendDefinitionList>
+                                                        <Legend>
+                                                            <ShowLegend>True </ShowLegend>
+                                                            <NumberOfLevels>8</NumberOfLevels>
+                                                            <Precision>4</Precision>
+                                                            <TickNumberFormat>FIXED</TickNumberFormat>
+                                                            <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                            <MappingMode>LinearContinuous</MappingMode>
+                                                            <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                            <UserDefinedMax>1</UserDefinedMax>
+                                                            <UserDefinedMin>0</UserDefinedMin>
+                                                            <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                            <ResultVariableUsage>None</ResultVariableUsage>
+                                                            <ResetDefaultValues>False </ResetDefaultValues>
+                                                            <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                        </Legend>
+                                                    </ResultVarLegendDefinitionList>
+                                                    <TernaryLegendDefinition>
+                                                        <RimTernaryLegendConfig>
+                                                            <ShowTernaryLegend>True </ShowTernaryLegend>
+                                                            <Precision>2</Precision>
+                                                            <RangeType>USER_DEFINED_MAX_MIN</RangeType>
+                                                            <ternaryRangeSummary></ternaryRangeSummary>
+                                                            <UserDefinedMaxSoil>1</UserDefinedMaxSoil>
+                                                            <UserDefinedMinSoil>0</UserDefinedMinSoil>
+                                                            <UserDefinedMaxSgas>1</UserDefinedMaxSgas>
+                                                            <UserDefinedMinSgas>0</UserDefinedMinSgas>
+                                                            <UserDefinedMaxSwat>1</UserDefinedMaxSwat>
+                                                            <UserDefinedMinSwat>0</UserDefinedMinSwat>
+                                                        </RimTernaryLegendConfig>
+                                                    </TernaryLegendDefinition>
+                                                    <LegendDefinitionPtrField>ResultVarLegendDefinitionList 0</LegendDefinitionPtrField>
+                                                </ResultSlot>
+                                            </SingleVarEdgeResult>
+                                        </CellEdgeResultSlot>
+                                    </GridCellEdgeResult>
+                                    <ElementVectorResult>
+                                        <RimElementVectorResult>
+                                            <LegendDefinition>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                    <ResultVariableUsage></ResultVariableUsage>
+                                                    <ResetDefaultValues>False </ResetDefaultValues>
+                                                    <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                </Legend>
+                                            </LegendDefinition>
+                                            <ShowOil>True </ShowOil>
+                                            <ShowGas>True </ShowGas>
+                                            <ShowWater>True </ShowWater>
+                                            <ShowResult>False </ShowResult>
+                                            <VectorView>AGGREGATED</VectorView>
+                                            <VectorSurfaceCrossingLocation>VECTOR_ANCHOR</VectorSurfaceCrossingLocation>
+                                            <ShowVectorI>True </ShowVectorI>
+                                            <ShowVectorJ>True </ShowVectorJ>
+                                            <ShowVectorK>True </ShowVectorK>
+                                            <ShowNncData>True </ShowNncData>
+                                            <Threshold>0</Threshold>
+                                            <VectorColor>RESULT_COLORS</VectorColor>
+                                            <UniformVectorColor>0 0 0</UniformVectorColor>
+                                            <SizeScale>1</SizeScale>
+                                        </RimElementVectorResult>
+                                    </ElementVectorResult>
+                                    <FaultResultSettings>
+                                        <RimFaultResultSlot>
+                                            <ShowCustomFaultResult>False </ShowCustomFaultResult>
+                                            <CustomResultSlot>
+                                                <ResultSlot>
+                                                    <IsChecked>True </IsChecked>
+                                                    <ResultType>DYNAMIC_NATIVE</ResultType>
+                                                    <PorosityModelType>MATRIX_MODEL</PorosityModelType>
+                                                    <ResultVariable>None</ResultVariable>
+                                                    <FlowDiagSolution>.. .. .. FlowDiagSolutions 0</FlowDiagSolution>
+                                                    <TimeLapseBaseTimeStep>-1</TimeLapseBaseTimeStep>
+                                                    <DifferenceCase></DifferenceCase>
+                                                    <DivideByCellFaceArea>False </DivideByCellFaceArea>
+                                                    <SelectedInjectorTracers></SelectedInjectorTracers>
+                                                    <SelectedProducerTracers></SelectedProducerTracers>
+                                                    <SelectedSouringTracers></SelectedSouringTracers>
+                                                    <FlowTracerSelectionMode>FLOW_TR_INJ_AND_PROD</FlowTracerSelectionMode>
+                                                    <PhaseSelection>PHASE_ALL</PhaseSelection>
+                                                    <ShowOnlyVisibleCategoriesInLegend>True </ShowOnlyVisibleCategoriesInLegend>
+                                                    <MSyncSelectedInjProd>False </MSyncSelectedInjProd>
+                                                    <MSyncSelectedProdInj>False </MSyncSelectedProdInj>
+                                                    <ResultVarLegendDefinitionList>
+                                                        <Legend>
+                                                            <ShowLegend>True </ShowLegend>
+                                                            <NumberOfLevels>8</NumberOfLevels>
+                                                            <Precision>4</Precision>
+                                                            <TickNumberFormat>FIXED</TickNumberFormat>
+                                                            <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                            <MappingMode>LinearContinuous</MappingMode>
+                                                            <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                            <UserDefinedMax>1</UserDefinedMax>
+                                                            <UserDefinedMin>0</UserDefinedMin>
+                                                            <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                            <ResultVariableUsage>None</ResultVariableUsage>
+                                                            <ResetDefaultValues>False </ResetDefaultValues>
+                                                            <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                        </Legend>
+                                                    </ResultVarLegendDefinitionList>
+                                                    <TernaryLegendDefinition>
+                                                        <RimTernaryLegendConfig>
+                                                            <ShowTernaryLegend>True </ShowTernaryLegend>
+                                                            <Precision>2</Precision>
+                                                            <RangeType>USER_DEFINED_MAX_MIN</RangeType>
+                                                            <ternaryRangeSummary></ternaryRangeSummary>
+                                                            <UserDefinedMaxSoil>1</UserDefinedMaxSoil>
+                                                            <UserDefinedMinSoil>0</UserDefinedMinSoil>
+                                                            <UserDefinedMaxSgas>1</UserDefinedMaxSgas>
+                                                            <UserDefinedMinSgas>0</UserDefinedMinSgas>
+                                                            <UserDefinedMaxSwat>1</UserDefinedMaxSwat>
+                                                            <UserDefinedMinSwat>0</UserDefinedMinSwat>
+                                                        </RimTernaryLegendConfig>
+                                                    </TernaryLegendDefinition>
+                                                    <LegendDefinitionPtrField>ResultVarLegendDefinitionList 0</LegendDefinitionPtrField>
+                                                </ResultSlot>
+                                            </CustomResultSlot>
+                                        </RimFaultResultSlot>
+                                    </FaultResultSettings>
+                                    <StimPlanColors>
+                                        <RimStimPlanColors>
+                                            <IsChecked>True </IsChecked>
+                                            <ResultName>CONDUCTIVITY [md-m]</ResultName>
+                                            <DefaultColor>0.647058844566345 0.164705887436867 0.164705887436867</DefaultColor>
+                                            <LegendConfigurations>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 11</ColorLegend>
+                                                    <MappingMode>LinearDiscrete</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                    <ResultVariableUsage>CONDUCTIVITY [md-m]</ResultVariableUsage>
+                                                    <ResetDefaultValues>False </ResetDefaultValues>
+                                                    <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                </Legend>
+                                            </LegendConfigurations>
+                                            <ShowStimPlanMesh>True </ShowStimPlanMesh>
+                                            <StimPlanCellVizMode>COLOR_INTERPOLATION</StimPlanCellVizMode>
+                                        </RimStimPlanColors>
+                                    </StimPlanColors>
+                                    <VirtualPerforationResult>
+                                        <RimVirtualPerforationResults>
+                                            <ShowConnectionFactors>False </ShowConnectionFactors>
+                                            <ShowClosedConnections>True </ShowClosedConnections>
+                                            <GeometryScaleFactor>2</GeometryScaleFactor>
+                                            <LegendDefinition>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                    <ResultVariableUsage></ResultVariableUsage>
+                                                    <ResetDefaultValues>False </ResetDefaultValues>
+                                                    <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                </Legend>
+                                            </LegendDefinition>
+                                        </RimVirtualPerforationResults>
+                                    </VirtualPerforationResult>
+                                    <WellCollection>
+                                        <Wells>
+                                            <Active>True </Active>
+                                            <ShowWellsIntersectingVisibleCells>False </ShowWellsIntersectingVisibleCells>
+                                            <WellHeadScale>1</WellHeadScale>
+                                            <WellPipeRadiusScale>0.1</WellPipeRadiusScale>
+                                            <CellCenterSphereScale>0.2</CellCenterSphereScale>
+                                            <WellLabelColor>0.919996976852417 0.919996976852417 0.919996976852417</WellLabelColor>
+                                            <ShowConnectionStatusColors>True </ShowConnectionStatusColors>
+                                            <WellColorForApply>1 1 0</WellColorForApply>
+                                            <WellPipeColors>WELLPIPE_COLOR_INDIDUALLY</WellPipeColors>
+                                            <WellPipeVertexCount>12</WellPipeVertexCount>
+                                            <WellPipeCoordType>WELLPIPE_INTERPOLATED</WellPipeCoordType>
+                                            <DefaultWellFenceDirection>K_DIRECTION</DefaultWellFenceDirection>
+                                            <WellCellTransparency>0.5</WellCellTransparency>
+                                            <IsAutoDetectingBranches>True </IsAutoDetectingBranches>
+                                            <WellHeadPosition>WELLHEAD_POS_TOP_COLUMN</WellHeadPosition>
+                                            <Wells>
+                                                <Well>
+                                                    <Name>INJ</Name>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <ShowWellDisks>False </ShowWellDisks>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.501960813999176 0.243137255311012 0.458823531866074</WellPipeColor>
+                                                    <WellDiskColor>0.501960813999176 0.501960813999176 0</WellDiskColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <Name>PROD</Name>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <ShowWellDisks>False </ShowWellDisks>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.831372559070587 0.109803922474384 0.517647087574005</WellPipeColor>
+                                                    <WellDiskColor>0.501960813999176 0.501960813999176 0</WellDiskColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                            </Wells>
+                                            <WellDiskSummaryCase></WellDiskSummaryCase>
+                                            <WellDiskQuantity>WOPT</WellDiskQuantity>
+                                            <WellDiskPropertyType>PROPERTY_TYPE_PREDEFINED</WellDiskPropertyType>
+                                            <WellDiskPropertyConfigType>PRODUCTION_RATES</WellDiskPropertyConfigType>
+                                            <WellDiskShowQuantityLabels>True </WellDiskShowQuantityLabels>
+                                            <WellDiskShowLabelsBackground>False </WellDiskShowLabelsBackground>
+                                            <WellDiskScaleFactor>1</WellDiskScaleFactor>
+                                            <WellDiskColor>0.501960813999176 0.501960813999176 0</WellDiskColor>
+                                            <ShowWellCommunicationLines>False </ShowWellCommunicationLines>
+                                        </Wells>
+                                    </WellCollection>
+                                    <FaultCollection>
+                                        <Faults>
+                                            <Active>True </Active>
+                                            <ShowFaultFaces>True </ShowFaultFaces>
+                                            <ShowOppositeFaultFaces>True </ShowOppositeFaultFaces>
+                                            <ShowFaultsOutsideFilters>True </ShowFaultsOutsideFilters>
+                                            <OnlyShowWithDefNeighbor>False </OnlyShowWithDefNeighbor>
+                                            <FaultFaceCulling>FAULT_BACK_FACE_CULLING</FaultFaceCulling>
+                                            <ShowFaultLabel>False </ShowFaultLabel>
+                                            <FaultLabelColor>0.919996976852417 0.919996976852417 0.919996976852417</FaultLabelColor>
+                                            <ShowNNCs>True </ShowNNCs>
+                                            <HideNncsWhenNoResultIsAvailable>True </HideNncsWhenNoResultIsAvailable>
+                                            <Faults>
+                                                <Fault>
+                                                    <FaultName>Undefined Grid Faults</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.396078437566757 0.517647087574005 0.376470595598221</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>Undefined Grid Faults With Inactive</FaultName>
+                                                    <ShowFault>False </ShowFault>
+                                                    <Color>1 0.513725519180298 0.549019634723663</Color>
+                                                </Fault>
+                                            </Faults>
+                                            <EnableFaultRA>False </EnableFaultRA>
+                                            <FaultRASettings>
+                                                <RimFaultRASettings>
+                                                    <EclipseCase></EclipseCase>
+                                                    <GeomechCase></GeomechCase>
+                                                    <EclipseFRACase></EclipseFRACase>
+                                                    <BaseDir></BaseDir>
+                                                    <ElasticTableFilename></ElasticTableFilename>
+                                                    <StartTimeStepEclipse>0</StartTimeStepEclipse>
+                                                    <EndTimeStepEclipse>0</EndTimeStepEclipse>
+                                                    <StartTimeStepGeoMech>0</StartTimeStepGeoMech>
+                                                    <EndTimeStepGeoMech>0</EndTimeStepGeoMech>
+                                                    <BasicParameters/>
+                                                    <AdvancedParameters/>
+                                                    <BasicParametersRI>
+                                                        <ParameterGroup>
+                                                            <Parameters>
+                                                                <StringParameter>
+                                                                    <Name>eclipse_input_grid</Name>
+                                                                    <Label>eclipse_input_grid</Label>
+                                                                    <Description></Description>
+                                                                    <Advanced>False </Advanced>
+                                                                    <Valid>True </Valid>
+                                                                    <Value></Value>
+                                                                </StringParameter>
+                                                                <IntegerParameter>
+                                                                    <Name>faultid</Name>
+                                                                    <Label>faultid</Label>
+                                                                    <Description></Description>
+                                                                    <Advanced>False </Advanced>
+                                                                    <Valid>True </Valid>
+                                                                    <Value>-1</Value>
+                                                                </IntegerParameter>
+                                                            </Parameters>
+                                                            <Name>ResInsight Basic</Name>
+                                                            <Label></Label>
+                                                            <Comment></Comment>
+                                                            <Expanded>False </Expanded>
+                                                            <ParameterLists/>
+                                                        </ParameterGroup>
+                                                    </BasicParametersRI>
+                                                    <AdvancedParametersRI>
+                                                        <ParameterGroup>
+                                                            <Parameters>
+                                                                <StringParameter>
+                                                                    <Name>abaqus_elastic_properties</Name>
+                                                                    <Label>abaqus_elastic_properties</Label>
+                                                                    <Description></Description>
+                                                                    <Advanced>False </Advanced>
+                                                                    <Valid>True </Valid>
+                                                                    <Value></Value>
+                                                                </StringParameter>
+                                                                <StringParameter>
+                                                                    <Name>abaqus_stress_start</Name>
+                                                                    <Label>abaqus_stress_start</Label>
+                                                                    <Description></Description>
+                                                                    <Advanced>False </Advanced>
+                                                                    <Valid>True </Valid>
+                                                                    <Value></Value>
+                                                                </StringParameter>
+                                                                <StringParameter>
+                                                                    <Name>abaqus_stress_end</Name>
+                                                                    <Label>abaqus_stress_end</Label>
+                                                                    <Description></Description>
+                                                                    <Advanced>False </Advanced>
+                                                                    <Valid>True </Valid>
+                                                                    <Value></Value>
+                                                                </StringParameter>
+                                                                <IntegerParameter>
+                                                                    <Name>faultid_calibration</Name>
+                                                                    <Label>faultid_calibration</Label>
+                                                                    <Description></Description>
+                                                                    <Advanced>False </Advanced>
+                                                                    <Valid>True </Valid>
+                                                                    <Value>-1</Value>
+                                                                </IntegerParameter>
+                                                                <StringParameter>
+                                                                    <Name>eclipse_loadstep_start</Name>
+                                                                    <Label>eclipse_loadstep_start</Label>
+                                                                    <Description></Description>
+                                                                    <Advanced>False </Advanced>
+                                                                    <Valid>True </Valid>
+                                                                    <Value></Value>
+                                                                </StringParameter>
+                                                                <StringParameter>
+                                                                    <Name>eclipse_loadstep_end</Name>
+                                                                    <Label>eclipse_loadstep_end</Label>
+                                                                    <Description></Description>
+                                                                    <Advanced>False </Advanced>
+                                                                    <Valid>True </Valid>
+                                                                    <Value></Value>
+                                                                </StringParameter>
+                                                            </Parameters>
+                                                            <Name>ResInsight Advanced</Name>
+                                                            <Label></Label>
+                                                            <Comment></Comment>
+                                                            <Expanded>False </Expanded>
+                                                            <ParameterLists/>
+                                                        </ParameterGroup>
+                                                    </AdvancedParametersRI>
+                                                </RimFaultRASettings>
+                                            </FaultRASettings>
+                                        </Faults>
+                                    </FaultCollection>
+                                    <AnnotationCollection>
+                                        <Annotations>
+                                            <IsActive>True </IsActive>
+                                            <TextAnnotations>
+                                                <RimAnnotationGroupCollection>
+                                                    <IsActive>True </IsActive>
+                                                    <Annotations/>
+                                                </RimAnnotationGroupCollection>
+                                            </TextAnnotations>
+                                            <AnnotationPlaneDepth>0</AnnotationPlaneDepth>
+                                            <SnapAnnotations>False </SnapAnnotations>
+                                            <TextAnnotationsInView>
+                                                <RimAnnotationGroupCollection>
+                                                    <IsActive>True </IsActive>
+                                                    <Annotations/>
+                                                </RimAnnotationGroupCollection>
+                                            </TextAnnotationsInView>
+                                            <ReachCircleAnnotationsInView>
+                                                <RimAnnotationGroupCollection>
+                                                    <IsActive>True </IsActive>
+                                                    <Annotations/>
+                                                </RimAnnotationGroupCollection>
+                                            </ReachCircleAnnotationsInView>
+                                            <UserDefinedPolylinesAnnotationsInView>
+                                                <RimAnnotationGroupCollection>
+                                                    <IsActive>True </IsActive>
+                                                    <Annotations/>
+                                                </RimAnnotationGroupCollection>
+                                            </UserDefinedPolylinesAnnotationsInView>
+                                            <PolylinesFromFileAnnotationsInView>
+                                                <RimAnnotationGroupCollection>
+                                                    <IsActive>True </IsActive>
+                                                    <Annotations/>
+                                                </RimAnnotationGroupCollection>
+                                            </PolylinesFromFileAnnotationsInView>
+                                            <AnnotationFontSize>Medium</AnnotationFontSize>
+                                        </Annotations>
+                                    </AnnotationCollection>
+                                    <StreamlineCollection>
+                                        <StreamlineInViewCollection>
+                                            <LegendDefinition>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 0</ColorLegend>
+                                                    <MappingMode>Log10Continuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <CategoryColorMode>INTERPOLATE</CategoryColorMode>
+                                                    <ResultVariableUsage></ResultVariableUsage>
+                                                    <ResetDefaultValues>False </ResetDefaultValues>
+                                                    <CenterLegendAroundZero>False </CenterLegendAroundZero>
+                                                </Legend>
+                                            </LegendDefinition>
+                                            <Name>Streamlines</Name>
+                                            <FlowThreshold>0.01</FlowThreshold>
+                                            <LengthThreshold>100</LengthThreshold>
+                                            <Resolution>20</Resolution>
+                                            <MaxDays>5000</MaxDays>
+                                            <UseProducers>True </UseProducers>
+                                            <UseInjectors>True </UseInjectors>
+                                            <Phase>COMBINED</Phase>
+                                            <isActive>False </isActive>
+                                            <VisualizationMode>ANIMATION</VisualizationMode>
+                                            <ColorMode>PHASE_COLORS</ColorMode>
+                                            <AnimationSpeed>10</AnimationSpeed>
+                                            <AnimationIndex>0</AnimationIndex>
+                                            <ScaleFactor>100</ScaleFactor>
+                                            <TracerLength>100</TracerLength>
+                                        </StreamlineInViewCollection>
+                                    </StreamlineCollection>
+                                    <PropertyFilters>
+                                        <CellPropertyFilters>
+                                            <Active>True </Active>
+                                            <PropertyFilters/>
+                                        </CellPropertyFilters>
+                                    </PropertyFilters>
+                                    <ShowInactiveCells>False </ShowInactiveCells>
+                                    <ShowInvalidCells>False </ShowInvalidCells>
+                                </ReservoirView>
+                            </ReservoirViews>
+                            <MatrixModelResults>
+                                <ReservoirCellResultStorage>
+                                    <ResultCacheFileName></ResultCacheFileName>
+                                    <ResultCacheEntries/>
+                                </ReservoirCellResultStorage>
+                            </MatrixModelResults>
+                            <FractureModelResults>
+                                <ReservoirCellResultStorage>
+                                    <ResultCacheFileName></ResultCacheFileName>
+                                    <ResultCacheEntries/>
+                                </ReservoirCellResultStorage>
+                            </FractureModelResults>
+                            <FlipXAxis>False </FlipXAxis>
+                            <FlipYAxis>False </FlipYAxis>
+                            <ContourMaps>
+                                <Eclipse2dViewCollection>
+                                    <EclipseViews/>
+                                </Eclipse2dViewCollection>
+                            </ContourMaps>
+                            <InputPropertyCollection>
+                                <RimInputPropertyCollection>
+                                    <InputProperties/>
+                                </RimInputPropertyCollection>
+                            </InputPropertyCollection>
+                            <UnitSystem>UNITS_FIELD</UnitSystem>
+                            <FlowDiagSolutions>
+                                <FlowDiagSolution>
+                                    <UserDescription>All Wells</UserDescription>
+                                </FlowDiagSolution>
+                            </FlowDiagSolutions>
+                            <SourSimFileName></SourSimFileName>
+                        </EclipseCase>
+                    </Reservoirs>
+                    <CaseGroups/>
+                </ResInsightAnalysisModels>
+            </AnalysisModels>
+            <GeoMechModels/>
+            <WellPathCollection>
+                <WellPaths>
+                    <Active>True </Active>
+                    <ShowWellPathLabel>True </ShowWellPathLabel>
+                    <WellPathLabelColor>0.919996976852417 0.919996976852417 0.919996976852417</WellPathLabelColor>
+                    <GlobalWellPathVisibility>ALL_ON</GlobalWellPathVisibility>
+                    <WellPathRadiusScale>0.1</WellPathRadiusScale>
+                    <WellPathClip>True </WellPathClip>
+                    <WellPathClipZDistance>100</WellPathClipZDistance>
+                    <WellPaths/>
+                    <WellMeasurements>
+                        <WellMeasurements>
+                            <Measurements/>
+                            <ImportedFiles/>
+                        </WellMeasurements>
+                    </WellMeasurements>
+                </WellPaths>
+            </WellPathCollection>
+            <CompletionTemplateCollection>
+                <CompletionTemplateCollection>
+                    <FractureTemplates>
+                        <FractureTemplateCollection>
+                            <DefaultUnitForTemplates>UNITS_FIELD</DefaultUnitForTemplates>
+                            <FractureDefinitions>
+                                <RimEllipseFractureTemplate>
+                                    <Id>0</Id>
+                                    <UserDescription>Ellipse Fracture Template</UserDescription>
+                                    <UnitSystem>UNITS_METRIC</UnitSystem>
+                                    <Orientation>Transverse</Orientation>
+                                    <AzimuthAngle>0</AzimuthAngle>
+                                    <SkinFactor>0</SkinFactor>
+                                    <PerforationLength>1</PerforationLength>
+                                    <PerforationEfficiency>1</PerforationEfficiency>
+                                    <WellDiameter>0.216</WellDiameter>
+                                    <ConductivityType>FiniteConductivity</ConductivityType>
+                                    <WellPathDepthAtFracture>25</WellPathDepthAtFracture>
+                                    <FractureContainmentField>
+                                        <FractureContainment>
+                                            <IsUsingFractureContainment>False </IsUsingFractureContainment>
+                                            <TopKLayer>0</TopKLayer>
+                                            <BaseKLayer>0</BaseKLayer>
+                                            <TruncateAtFaults>False </TruncateAtFaults>
+                                            <FaultThrowValue>0</FaultThrowValue>
+                                        </FractureContainment>
+                                    </FractureContainmentField>
+                                    <NonDarcyFlowType>None</NonDarcyFlowType>
+                                    <UserDefinedDFactor>1</UserDefinedDFactor>
+                                    <FractureWidthType>FractureWidth</FractureWidthType>
+                                    <FractureWidth>0.01</FractureWidth>
+                                    <BetaFactorType>UserDefinedBetaFactor</BetaFactorType>
+                                    <InertialCoefficient>0.006083236</InertialCoefficient>
+                                    <PermeabilityType>FractureConductivity</PermeabilityType>
+                                    <RelativePermeability>1</RelativePermeability>
+                                    <EffectivePermeability>0</EffectivePermeability>
+                                    <RelativeGasDensity>0.8</RelativeGasDensity>
+                                    <GasViscosity>0.02</GasViscosity>
+                                    <HeightScaleFactor>1</HeightScaleFactor>
+                                    <WidthScaleFactor>1</WidthScaleFactor>
+                                    <DFactorScaleFactor>1</DFactorScaleFactor>
+                                    <ConductivityFactor>1</ConductivityFactor>
+                                    <HalfLength>100</HalfLength>
+                                    <Height>75</Height>
+                                    <Width>0.01</Width>
+                                    <Permeability>100000</Permeability>
+                                </RimEllipseFractureTemplate>
+                            </FractureDefinitions>
+                            <NextValidFractureTemplateId>1</NextValidFractureTemplateId>
+                        </FractureTemplateCollection>
+                    </FractureTemplates>
+                    <StimPlanModelTemplates>
+                        <StimPlanModelTemplateCollection>
+                            <StimPlanModelTemplates/>
+                            <NextValidId>0</NextValidId>
+                        </StimPlanModelTemplateCollection>
+                    </StimPlanModelTemplates>
+                    <ValveTemplates>
+                        <ValveTemplateCollection>
+                            <ValveDefinitions>
+                                <ValveTemplate>
+                                    <Name>AICD: Valve Template #1</Name>
+                                    <UnitSystem>UNITS_UNKNOWN</UnitSystem>
+                                    <CompletionType>AICD</CompletionType>
+                                    <UserLabel>Valve Template #1</UserLabel>
+                                    <OrificeDiameter>8</OrificeDiameter>
+                                    <FlowCoefficient>0.7</FlowCoefficient>
+                                    <AICDParameters>
+                                        <WellPathAicdParameters>
+                                            <DeviceOpen>True </DeviceOpen>
+                                            <StrengthAICD></StrengthAICD>
+                                            <DensityCalibrationFluid></DensityCalibrationFluid>
+                                            <ViscosityCalibrationFluid></ViscosityCalibrationFluid>
+                                            <VolumeFlowRateExponent></VolumeFlowRateExponent>
+                                            <ViscosityFunctionExponent></ViscosityFunctionExponent>
+                                            <CriticalWaterLiquidFractionEmul>1*</CriticalWaterLiquidFractionEmul>
+                                            <ViscosityTransitionRegionEmul>1*</ViscosityTransitionRegionEmul>
+                                            <MaxRatioOfEmulsionVisc>1*</MaxRatioOfEmulsionVisc>
+                                            <MaxFlowRate>1*</MaxFlowRate>
+                                            <ExponentOilDensity>1*</ExponentOilDensity>
+                                            <ExponentWaterDensity>1*</ExponentWaterDensity>
+                                            <ExponentGasDensity>1*</ExponentGasDensity>
+                                            <ExponentOilViscosity>1*</ExponentOilViscosity>
+                                            <ExponentWaterViscosity>1*</ExponentWaterViscosity>
+                                            <ExponentGasViscosity>1*</ExponentGasViscosity>
+                                        </WellPathAicdParameters>
+                                    </AICDParameters>
+                                </ValveTemplate>
+                                <ValveTemplate>
+                                    <Name>ICD: Valve Template #2</Name>
+                                    <UnitSystem>UNITS_UNKNOWN</UnitSystem>
+                                    <CompletionType>ICD</CompletionType>
+                                    <UserLabel>Valve Template #2</UserLabel>
+                                    <OrificeDiameter>8</OrificeDiameter>
+                                    <FlowCoefficient>0.7</FlowCoefficient>
+                                    <AICDParameters>
+                                        <WellPathAicdParameters>
+                                            <DeviceOpen>True </DeviceOpen>
+                                            <StrengthAICD></StrengthAICD>
+                                            <DensityCalibrationFluid></DensityCalibrationFluid>
+                                            <ViscosityCalibrationFluid></ViscosityCalibrationFluid>
+                                            <VolumeFlowRateExponent></VolumeFlowRateExponent>
+                                            <ViscosityFunctionExponent></ViscosityFunctionExponent>
+                                            <CriticalWaterLiquidFractionEmul>1*</CriticalWaterLiquidFractionEmul>
+                                            <ViscosityTransitionRegionEmul>1*</ViscosityTransitionRegionEmul>
+                                            <MaxRatioOfEmulsionVisc>1*</MaxRatioOfEmulsionVisc>
+                                            <MaxFlowRate>1*</MaxFlowRate>
+                                            <ExponentOilDensity>1*</ExponentOilDensity>
+                                            <ExponentWaterDensity>1*</ExponentWaterDensity>
+                                            <ExponentGasDensity>1*</ExponentGasDensity>
+                                            <ExponentOilViscosity>1*</ExponentOilViscosity>
+                                            <ExponentWaterViscosity>1*</ExponentWaterViscosity>
+                                            <ExponentGasViscosity>1*</ExponentGasViscosity>
+                                        </WellPathAicdParameters>
+                                    </AICDParameters>
+                                </ValveTemplate>
+                                <ValveTemplate>
+                                    <Name>ICV: Valve Template #3</Name>
+                                    <UnitSystem>UNITS_UNKNOWN</UnitSystem>
+                                    <CompletionType>ICV</CompletionType>
+                                    <UserLabel>Valve Template #3</UserLabel>
+                                    <OrificeDiameter>8</OrificeDiameter>
+                                    <FlowCoefficient>0.7</FlowCoefficient>
+                                    <AICDParameters>
+                                        <WellPathAicdParameters>
+                                            <DeviceOpen>True </DeviceOpen>
+                                            <StrengthAICD></StrengthAICD>
+                                            <DensityCalibrationFluid></DensityCalibrationFluid>
+                                            <ViscosityCalibrationFluid></ViscosityCalibrationFluid>
+                                            <VolumeFlowRateExponent></VolumeFlowRateExponent>
+                                            <ViscosityFunctionExponent></ViscosityFunctionExponent>
+                                            <CriticalWaterLiquidFractionEmul>1*</CriticalWaterLiquidFractionEmul>
+                                            <ViscosityTransitionRegionEmul>1*</ViscosityTransitionRegionEmul>
+                                            <MaxRatioOfEmulsionVisc>1*</MaxRatioOfEmulsionVisc>
+                                            <MaxFlowRate>1*</MaxFlowRate>
+                                            <ExponentOilDensity>1*</ExponentOilDensity>
+                                            <ExponentWaterDensity>1*</ExponentWaterDensity>
+                                            <ExponentGasDensity>1*</ExponentGasDensity>
+                                            <ExponentOilViscosity>1*</ExponentOilViscosity>
+                                            <ExponentWaterViscosity>1*</ExponentWaterViscosity>
+                                            <ExponentGasViscosity>1*</ExponentGasViscosity>
+                                        </WellPathAicdParameters>
+                                    </AICDParameters>
+                                </ValveTemplate>
+                            </ValveDefinitions>
+                            <ValveUnits>UNITS_FIELD</ValveUnits>
+                        </ValveTemplateCollection>
+                    </ValveTemplates>
+                    <FractureGroupStatisticsCollection>
+                        <FractureGroupStatisticsCollection>
+                            <FractureGroupStatistics/>
+                        </FractureGroupStatisticsCollection>
+                    </FractureGroupStatisticsCollection>
+                </CompletionTemplateCollection>
+            </CompletionTemplateCollection>
+            <SummaryCaseCollection>
+                <SummaryCaseCollection>
+                    <SummaryCases/>
+                    <SummaryCaseCollections/>
+                </SummaryCaseCollection>
+            </SummaryCaseCollection>
+            <FormationNamesCollection>
+                <FormationNamesCollectionObject>
+                    <FormationNamesList/>
+                </FormationNamesCollectionObject>
+            </FormationNamesCollection>
+            <ObservedDataCollection>
+                <ObservedDataCollection>
+                    <ObservedDataArray/>
+                    <ObservedFmuRftDataArray/>
+                </ObservedDataCollection>
+            </ObservedDataCollection>
+            <AnnotationCollection>
+                <RimAnnotationCollection>
+                    <IsActive>True </IsActive>
+                    <TextAnnotations>
+                        <RimAnnotationGroupCollection>
+                            <IsActive>True </IsActive>
+                            <Annotations/>
+                        </RimAnnotationGroupCollection>
+                    </TextAnnotations>
+                    <ReachCircleAnnotations>
+                        <RimAnnotationGroupCollection>
+                            <IsActive>True </IsActive>
+                            <Annotations/>
+                        </RimAnnotationGroupCollection>
+                    </ReachCircleAnnotations>
+                    <UserDefinedPolylineAnnotations>
+                        <RimAnnotationGroupCollection>
+                            <IsActive>True </IsActive>
+                            <Annotations/>
+                        </RimAnnotationGroupCollection>
+                    </UserDefinedPolylineAnnotations>
+                    <PolylineFromFileAnnotations>
+                        <RimAnnotationGroupCollection>
+                            <IsActive>True </IsActive>
+                            <Annotations/>
+                        </RimAnnotationGroupCollection>
+                    </PolylineFromFileAnnotations>
+                </RimAnnotationCollection>
+            </AnnotationCollection>
+            <EnsembleWellLogsCollection>
+                <EnsembleWellLogsCollection>
+                    <EnsembleWellLogsCollection/>
+                </EnsembleWellLogsCollection>
+            </EnsembleWellLogsCollection>
+            <SurfaceCollection>
+                <SurfaceCollection>
+                    <SurfaceUserDecription>Surfaces</SurfaceUserDecription>
+                    <SubCollections/>
+                    <SurfacesField/>
+                </SurfaceCollection>
+            </SurfaceCollection>
+        </ResInsightOilField>
+    </OilFields>
+    <ColorLegendCollection>
+        <ColorLegendCollection>
+            <CustomColorLegends/>
+        </ColorLegendCollection>
+    </ColorLegendCollection>
+    <WellPathImport>
+        <RimWellPathImport>
+            <WellTypeSurvey>True </WellTypeSurvey>
+            <WellTypePlans>True </WellTypePlans>
+            <UtmMode>UTM_FILTER_OFF</UtmMode>
+            <UtmNorth>0</UtmNorth>
+            <UtmSouth>0</UtmSouth>
+            <UtmEast>0</UtmEast>
+            <UtmWest>0</UtmWest>
+            <Regions/>
+        </RimWellPathImport>
+    </WellPathImport>
+    <MainPlotCollection>
+        <MainPlotCollection>
+            <Show>True </Show>
+            <WellLogPlotCollection>
+                <WellLogPlotCollection>
+                    <WellLogPlots/>
+                </WellLogPlotCollection>
+            </WellLogPlotCollection>
+            <RftPlotCollection>
+                <WellRftPlotCollection>
+                    <RftPlots/>
+                </WellRftPlotCollection>
+            </RftPlotCollection>
+            <PltPlotCollection>
+                <WellPltPlotCollection>
+                    <PltPlots/>
+                </WellPltPlotCollection>
+            </PltPlotCollection>
+            <SummaryMultiPlotCollection>
+                <RimSummaryMultiPlotCollection>
+                    <MultiSummaryPlots/>
+                </RimSummaryMultiPlotCollection>
+            </SummaryMultiPlotCollection>
+            <AnalysisPlotCollection>
+                <AnalysisPlotCollection>
+                    <AnalysisPlots/>
+                </AnalysisPlotCollection>
+            </AnalysisPlotCollection>
+            <CorrelationPlotCollection>
+                <CorrelationPlotCollection>
+                    <CorrelationPlots/>
+                    <CorrelationReports/>
+                </CorrelationPlotCollection>
+            </CorrelationPlotCollection>
+            <SummaryCrossPlotCollection>
+                <SummaryCrossPlotCollection>
+                    <SummaryCrossPlots/>
+                </SummaryCrossPlotCollection>
+            </SummaryCrossPlotCollection>
+            <FlowPlotCollection>
+                <FlowPlotCollection>
+                    <FlowCharacteristicsPlot>
+                        <FlowCharacteristicsPlot>
+                            <WindowController>
+                                <MdiWindowController>
+                                    <MainWindowID>1</MainWindowID>
+                                    <xPos>0</xPos>
+                                    <yPos>0</yPos>
+                                    <Width>-1</Width>
+                                    <Height>-1</Height>
+                                    <IsMaximized>False </IsMaximized>
+                                </MdiWindowController>
+                            </WindowController>
+                            <ShowWindow>False </ShowWindow>
+                            <FlowCase></FlowCase>
+                            <FlowDiagSolution></FlowDiagSolution>
+                            <TimeSelectionType>SELECTED</TimeSelectionType>
+                            <SelectedTimeSteps></SelectedTimeSteps>
+                            <SelectedTimeStepsUi></SelectedTimeStepsUi>
+                            <CellPVThreshold>0.1</CellPVThreshold>
+                            <ShowLegend>True </ShowLegend>
+                            <CellFilter>CELLS_ACTIVE</CellFilter>
+                            <CellFilterView></CellFilterView>
+                            <TracerFilter></TracerFilter>
+                            <SelectedTracerNames></SelectedTracerNames>
+                            <MinCommunication>0</MinCommunication>
+                            <MaxTof>146000</MaxTof>
+                        </FlowCharacteristicsPlot>
+                    </FlowCharacteristicsPlot>
+                    <DefaultWellAllocationPlot>
+                        <WellAllocationPlot>
+                            <WindowController>
+                                <MdiWindowController>
+                                    <MainWindowID>1</MainWindowID>
+                                    <xPos>0</xPos>
+                                    <yPos>0</yPos>
+                                    <Width>-1</Width>
+                                    <Height>-1</Height>
+                                    <IsMaximized>False </IsMaximized>
+                                </MdiWindowController>
+                            </WindowController>
+                            <ShowWindow>False </ShowWindow>
+                            <PlotDescription>Default Flow Diagnostics Plot</PlotDescription>
+                            <ShowPlotTitle>True </ShowPlotTitle>
+                            <BranchDetection>True </BranchDetection>
+                            <CurveCase></CurveCase>
+                            <PlotTimeStep>0</PlotTimeStep>
+                            <WellName>None</WellName>
+                            <FlowDiagSolution></FlowDiagSolution>
+                            <FlowType>ACCUMULATED</FlowType>
+                            <GroupSmallContributions>True </GroupSmallContributions>
+                            <SmallContributionsThreshold>0.005</SmallContributionsThreshold>
+                            <AccumulatedWellFlowPlot>
+                                <WellLogPlot>
+                                    <WindowController/>
+                                    <ShowWindow>True </ShowWindow>
+                                    <Id>-1</Id>
+                                    <ShowPlotTitle>False </ShowPlotTitle>
+                                    <ShowTrackLegends>False </ShowTrackLegends>
+                                    <TrackLegendsHorizontal>False </TrackLegendsHorizontal>
+                                    <TitleFontSize>XX_Large</TitleFontSize>
+                                    <LegendDeltaFontSize>Large</LegendDeltaFontSize>
+                                    <DepthType>CONNECTION_NUMBER</DepthType>
+                                    <DepthUnit>UNIT_NONE</DepthUnit>
+                                    <MinimumDepth>0</MinimumDepth>
+                                    <MaximumDepth>1000</MaximumDepth>
+                                    <ShowDepthGridLines>GRID_X_MAJOR</ShowDepthGridLines>
+                                    <AutoScaleDepthEnabled>True </AutoScaleDepthEnabled>
+                                    <SubTitleFontSize>Medium</SubTitleFontSize>
+                                    <AxisTitleFontSize>Medium</AxisTitleFontSize>
+                                    <AxisValueFontSize>Medium</AxisValueFontSize>
+                                    <NameConfig>
+                                        <RimWellLogPlotNameConfig>
+                                            <CustomCurveName>Well Log Plot</CustomCurveName>
+                                            <AddCaseName>False </AddCaseName>
+                                            <AddWellName>False </AddWellName>
+                                            <AddTimeStep>False </AddTimeStep>
+                                            <AddAirGap>False </AddAirGap>
+                                            <AddWaterDepth>False </AddWaterDepth>
+                                        </RimWellLogPlotNameConfig>
+                                    </NameConfig>
+                                    <FilterEnsembleCurveSet></FilterEnsembleCurveSet>
+                                    <DepthEqualization>NONE</DepthEqualization>
+                                    <Tracks/>
+                                    <DepthOrientation>VERTICAL</DepthOrientation>
+                                </WellLogPlot>
+                            </AccumulatedWellFlowPlot>
+                            <TotalWellFlowPlot>
+                                <TotalWellAllocationPlot>
+                                    <WindowController/>
+                                    <ShowWindow>True </ShowWindow>
+                                    <PlotDescription>Total Allocation</PlotDescription>
+                                    <ShowPlotTitle>True </ShowPlotTitle>
+                                </TotalWellAllocationPlot>
+                            </TotalWellFlowPlot>
+                            <WellAllocLegend>
+                                <WellAllocationPlotLegend>
+                                    <ShowPlotLegend>True </ShowPlotLegend>
+                                </WellAllocationPlotLegend>
+                            </WellAllocLegend>
+                            <TofAccumulatedPhaseFractionsPlot>
+                                <TofAccumulatedPhaseFractionsPlot>
+                                    <WindowController/>
+                                    <ShowWindow>False </ShowWindow>
+                                    <PlotDescription>Cumulative Saturation by Time of Flight</PlotDescription>
+                                    <ShowPlotTitle>True </ShowPlotTitle>
+                                    <MaxTof>50</MaxTof>
+                                </TofAccumulatedPhaseFractionsPlot>
+                            </TofAccumulatedPhaseFractionsPlot>
+                        </WellAllocationPlot>
+                    </DefaultWellAllocationPlot>
+                    <WellDistributionPlotCollection>
+                        <WellDistributionPlotCollection>
+                            <WindowController>
+                                <MdiWindowController>
+                                    <MainWindowID>1</MainWindowID>
+                                    <xPos>0</xPos>
+                                    <yPos>0</yPos>
+                                    <Width>-1</Width>
+                                    <Height>-1</Height>
+                                    <IsMaximized>False </IsMaximized>
+                                </MdiWindowController>
+                            </WindowController>
+                            <ShowWindow>False </ShowWindow>
+                            <Id>-1</Id>
+                            <ShowPlotTitle>True </ShowPlotTitle>
+                            <ShowTrackLegends>True </ShowTrackLegends>
+                            <TrackLegendsHorizontal>True </TrackLegendsHorizontal>
+                            <TitleFontSize>XX_Large</TitleFontSize>
+                            <LegendDeltaFontSize>Large</LegendDeltaFontSize>
+                            <Case></Case>
+                            <TimeStepIndex>-1</TimeStepIndex>
+                            <WellName>None</WellName>
+                            <GroupSmallContributions>True </GroupSmallContributions>
+                            <SmallContributionsRelativeThreshold>0.005</SmallContributionsRelativeThreshold>
+                            <MaximumTOF>20</MaximumTOF>
+                            <Plots>
+                                <WellDistributionPlot>
+                                    <WindowController/>
+                                    <ShowWindow>True </ShowWindow>
+                                    <Id>-1</Id>
+                                    <ShowPlotTitle>True </ShowPlotTitle>
+                                    <ShowTrackLegends>False </ShowTrackLegends>
+                                    <TrackLegendsHorizontal>True </TrackLegendsHorizontal>
+                                    <TitleFontSize>XX_Large</TitleFontSize>
+                                    <LegendDeltaFontSize>Large</LegendDeltaFontSize>
+                                    <RowSpan>ONE</RowSpan>
+                                    <ColSpan>ONE</ColSpan>
+                                    <Case></Case>
+                                    <TimeStepIndex>-1</TimeStepIndex>
+                                    <WellName>None</WellName>
+                                    <Phase>OIL_PHASE</Phase>
+                                    <GroupSmallContributions>True </GroupSmallContributions>
+                                    <SmallContributionsRelativeThreshold>0.005</SmallContributionsRelativeThreshold>
+                                    <MaximumTOF>20</MaximumTOF>
+                                </WellDistributionPlot>
+                                <WellDistributionPlot>
+                                    <WindowController/>
+                                    <ShowWindow>True </ShowWindow>
+                                    <Id>-1</Id>
+                                    <ShowPlotTitle>True </ShowPlotTitle>
+                                    <ShowTrackLegends>False </ShowTrackLegends>
+                                    <TrackLegendsHorizontal>True </TrackLegendsHorizontal>
+                                    <TitleFontSize>XX_Large</TitleFontSize>
+                                    <LegendDeltaFontSize>Large</LegendDeltaFontSize>
+                                    <RowSpan>ONE</RowSpan>
+                                    <ColSpan>ONE</ColSpan>
+                                    <Case></Case>
+                                    <TimeStepIndex>-1</TimeStepIndex>
+                                    <WellName>None</WellName>
+                                    <Phase>GAS_PHASE</Phase>
+                                    <GroupSmallContributions>True </GroupSmallContributions>
+                                    <SmallContributionsRelativeThreshold>0.005</SmallContributionsRelativeThreshold>
+                                    <MaximumTOF>20</MaximumTOF>
+                                </WellDistributionPlot>
+                                <WellDistributionPlot>
+                                    <WindowController/>
+                                    <ShowWindow>True </ShowWindow>
+                                    <Id>-1</Id>
+                                    <ShowPlotTitle>True </ShowPlotTitle>
+                                    <ShowTrackLegends>False </ShowTrackLegends>
+                                    <TrackLegendsHorizontal>True </TrackLegendsHorizontal>
+                                    <TitleFontSize>XX_Large</TitleFontSize>
+                                    <LegendDeltaFontSize>Large</LegendDeltaFontSize>
+                                    <RowSpan>ONE</RowSpan>
+                                    <ColSpan>ONE</ColSpan>
+                                    <Case></Case>
+                                    <TimeStepIndex>-1</TimeStepIndex>
+                                    <WellName>None</WellName>
+                                    <Phase>WATER_PHASE</Phase>
+                                    <GroupSmallContributions>True </GroupSmallContributions>
+                                    <SmallContributionsRelativeThreshold>0.005</SmallContributionsRelativeThreshold>
+                                    <MaximumTOF>20</MaximumTOF>
+                                </WellDistributionPlot>
+                            </Plots>
+                            <ShowOil>True </ShowOil>
+                            <ShowGas>True </ShowGas>
+                            <ShowWater>True </ShowWater>
+                            <PlotDescription>Cumulative Phase Distribution Plots</PlotDescription>
+                        </WellDistributionPlotCollection>
+                    </WellDistributionPlotCollection>
+                    <StoredWellAllocationPlots/>
+                    <StoredFlowCharacteristicsPlots/>
+                </FlowPlotCollection>
+            </FlowPlotCollection>
+            <Rim3dCrossPlotCollection>
+                <RimGridCrossPlotCollection>
+                    <GridCrossPlots/>
+                </RimGridCrossPlotCollection>
+            </Rim3dCrossPlotCollection>
+            <RimSaturationPressurePlotCollection>
+                <RimSaturationPressurePlotCollection>
+                    <SaturationPressurePlots/>
+                </RimSaturationPressurePlotCollection>
+            </RimSaturationPressurePlotCollection>
+            <RimMultiPlotCollection>
+                <RimMultiPlotCollection>
+                    <MultiPlots/>
+                </RimMultiPlotCollection>
+            </RimMultiPlotCollection>
+            <StimPlanModelPlotCollection>
+                <StimPlanModelPlotCollection>
+                    <StimPlanModelPlots/>
+                </StimPlanModelPlotCollection>
+            </StimPlanModelPlotCollection>
+            <VfpPlotCollection>
+                <RimVfpPlotCollection>
+                    <VfpPlots/>
+                </RimVfpPlotCollection>
+            </VfpPlotCollection>
+            <GridStatisticsPlotCollection>
+                <GridStatisticsPlotCollection>
+                    <GridStatisticsPlots/>
+                </GridStatisticsPlotCollection>
+            </GridStatisticsPlotCollection>
+            <EnsembleFractureStatisticsPlotCollection>
+                <EnsembleFractureStatisticsPlotCollection>
+                    <EnsembleFractureStatisticsPlots/>
+                </EnsembleFractureStatisticsPlotCollection>
+            </EnsembleFractureStatisticsPlotCollection>
+        </MainPlotCollection>
+    </MainPlotCollection>
+    <LinkedViews>
+        <RimViewLinkerCollection>
+            <Active>True </Active>
+            <ViewLinkers/>
+        </RimViewLinkerCollection>
+    </LinkedViews>
+    <CalculationCollection>
+        <RimSummaryCalculationCollection>
+            <Calculations/>
+        </RimSummaryCalculationCollection>
+    </CalculationCollection>
+    <GridCalculationCollection>
+        <RimGridCalculationCollection>
+            <Calculations/>
+        </RimGridCalculationCollection>
+    </GridCalculationCollection>
+    <CommandObjects/>
+    <MultiSnapshotDefinitions/>
+    <TreeViewStates>-1-1100000;-1-11000;-1-110||</TreeViewStates>
+    <TreeViewCurrentModelIndexPaths>1 0;0 0;0 0;2 0||</TreeViewCurrentModelIndexPaths>
+    <PlotWindowTreeViewStates>-1-100|-1-100||</PlotWindowTreeViewStates>
+    <PlotWindowTreeViewCurrentModelIndexPaths>|||</PlotWindowTreeViewCurrentModelIndexPaths>
+    <show3DWindow>True </show3DWindow>
+    <showPlotWindow>False </showPlotWindow>
+    <tiled3DWindow>False </tiled3DWindow>
+    <tiledPlotWindow>False </tiledPlotWindow>
+    <DialogData>
+        <RimDialogData>
+            <ExportCarfin>
+                <RicExportCarfinUi>
+                    <CellRange>
+                        <RicCellRangeUi>
+                            <Case></Case>
+                            <GridIndex>0</GridIndex>
+                            <StartIndexI>1</StartIndexI>
+                            <StartIndexJ>1</StartIndexJ>
+                            <StartIndexK>1</StartIndexK>
+                            <CellCountI>1</CellCountI>
+                            <CellCountJ>1</CellCountJ>
+                            <CellCountK>1</CellCountK>
+                        </RicCellRangeUi>
+                    </CellRange>
+                    <ExportFileName></ExportFileName>
+                    <CaseToApply></CaseToApply>
+                    <CellCountI>2</CellCountI>
+                    <CellCountJ>2</CellCountJ>
+                    <CellCountK>2</CellCountK>
+                    <MaxWellCount>8</MaxWellCount>
+                </RicExportCarfinUi>
+            </ExportCarfin>
+            <ExportCompletionData>
+                <RicExportCompletionDataSettingsUi>
+                    <Folder></Folder>
+                    <CaseToApply></CaseToApply>
+                    <FileSplit>SPLIT_ON_WELL_AND_COMPLETION_TYPE</FileSplit>
+                    <compdatExport>TRANSMISSIBILITIES</compdatExport>
+                    <TimeStepIndex>0</TimeStepIndex>
+                    <IncludeMSW>True </IncludeMSW>
+                    <UseLateralNTG>False </UseLateralNTG>
+                    <IncludePerforations>True </IncludePerforations>
+                    <IncludeFishbones>True </IncludeFishbones>
+                    <IncludeFractures>True </IncludeFractures>
+                    <TransScalingType>False </TransScalingType>
+                    <TransScalingTimeStep>0</TransScalingTimeStep>
+                    <TransScalingWBHPSource>WBHP_SUMMARY</TransScalingWBHPSource>
+                    <TransScalingWBHP>200</TransScalingWBHP>
+                    <ExcludeMainBoreForFishbones>False </ExcludeMainBoreForFishbones>
+                    <ReportCompletionTypesSeparately>INDIVIDUALLY</ReportCompletionTypesSeparately>
+                    <ExportDataSourceAsComment>True </ExportDataSourceAsComment>
+                    <ExportWelspec>True </ExportWelspec>
+                    <CompletionWelspecAfterMainBore>True </CompletionWelspecAfterMainBore>
+                    <UseCustomFileName>False </UseCustomFileName>
+                    <CustomFileName></CustomFileName>
+                </RicExportCompletionDataSettingsUi>
+            </ExportCompletionData>
+            <MultipleFractionsData>
+                <RiuCreateMultipleFractionsUi>
+                    <SourceCase></SourceCase>
+                    <MinDistanceFromWellTd>10</MinDistanceFromWellTd>
+                    <MaxFracturesPerWell>10</MaxFracturesPerWell>
+                    <Options/>
+                    <FractureCreationSummary>-- Selected Wells
+   
+</FractureCreationSummary>
+                </RiuCreateMultipleFractionsUi>
+            </MultipleFractionsData>
+            <HoloLenseExportToFolderData>
+                <RicHoloLensExportToFolderUi>
+                    <ViewForExport></ViewForExport>
+                    <ExportFolder></ExportFolder>
+                </RicHoloLensExportToFolderUi>
+            </HoloLenseExportToFolderData>
+            <ExportwellPathsData>
+                <RicExportWellPathsUi>
+                    <ExportFolder></ExportFolder>
+                    <MdStepSize>5</MdStepSize>
+                </RicExportWellPathsUi>
+            </ExportwellPathsData>
+            <ExportLgr>
+                <RicExportLgrUi>
+                    <ExportFolder></ExportFolder>
+                    <CaseToApply></CaseToApply>
+                    <TimeStepIndex>0</TimeStepIndex>
+                    <IncludePerforations>True </IncludePerforations>
+                    <IncludeFractures>True </IncludeFractures>
+                    <IncludeFishbones>True </IncludeFishbones>
+                    <CellCountI>2</CellCountI>
+                    <CellCountJ>2</CellCountJ>
+                    <CellCountK>2</CellCountK>
+                    <SplitType>LGR_PER_COMPLETION</SplitType>
+                </RicExportLgrUi>
+            </ExportLgr>
+            <ExportSectorModel>
+                <RicExportEclipseInputGridUi>
+                    <ExportGrid>True </ExportGrid>
+                    <ExportGridFilename>/home/almuravtsev/oil-gas-software-experiments/drafts/GRID.GRDECL</ExportGridFilename>
+                    <ExportInLocalCoords>False </ExportInLocalCoords>
+                    <InvisibleCellActnum>False </InvisibleCellActnum>
+                    <GridBoxSelection>VISIBLE_CELLS</GridBoxSelection>
+                    <MinI>2147483647</MinI>
+                    <MinJ>2147483647</MinJ>
+                    <MinK>2147483647</MinK>
+                    <MaxI>-2147483647</MaxI>
+                    <MaxJ>-2147483647</MaxJ>
+                    <MaxK>-2147483647</MaxK>
+                    <ExportFaults>TO_SINGLE_RESULT_FILE</ExportFaults>
+                    <ExportFaultsFilename>/home/almuravtsev/oil-gas-software-experiments/drafts/FAULTS.GRDECL</ExportFaultsFilename>
+                    <RefinementCountI>1</RefinementCountI>
+                    <RefinementCountJ>1</RefinementCountJ>
+                    <RefinementCountK>1</RefinementCountK>
+                    <ExportParams>TO_SEPARATE_RESULT_FILES</ExportParams>
+                    <ExportParamsFilename>/home/almuravtsev/oil-gas-software-experiments/drafts/RESULTS.GRDECL</ExportParamsFilename>
+                    <ExportMainKeywords></ExportMainKeywords>
+                </RicExportEclipseInputGridUi>
+            </ExportSectorModel>
+            <MockModelSettings>
+                <MockModelSettings>
+                    <CellCountX>100</CellCountX>
+                    <CellCountY>100</CellCountY>
+                    <CellCountZ>10</CellCountZ>
+                    <TotalCellCount>94894921860896</TotalCellCount>
+                    <ResultCount>3</ResultCount>
+                    <TimeStepCount>10</TimeStepCount>
+                </MockModelSettings>
+            </MockModelSettings>
+            <CreateEnsembleSurfaceUi>
+                <RicCreateEnsembleSurfaceUi>
+                    <Layers></Layers>
+                    <AutoCreateEnsembleSurfaces>False </AutoCreateEnsembleSurfaces>
+                    <MinLayer>-1034487858</MinLayer>
+                    <MaxLayer>0</MaxLayer>
+                </RicCreateEnsembleSurfaceUi>
+            </CreateEnsembleSurfaceUi>
+            <CreateEnsembleWellLogUi>
+                <RicCreateEnsembleWellLogUi>
+                    <AutoCreateEnsembleWellLogs>True </AutoCreateEnsembleWellLogs>
+                    <TimeStep>0</TimeStep>
+                    <WellPathSource>FILE</WellPathSource>
+                    <WellPath></WellPath>
+                    <WellFilePath></WellFilePath>
+                    <SelectedProperties></SelectedProperties>
+                </RicCreateEnsembleWellLogUi>
+            </CreateEnsembleWellLogUi>
+        </RimDialogData>
+    </DialogData>
+</ResInsightProject>
